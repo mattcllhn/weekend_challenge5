@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html ng-controller = "addController">
+<h3>add your pet</h3>
+<link rel="stylesheet" href="../style.css" media="screen" title="no title">
+<div class="form-group">
+
+<input class = "input" type = "text" name="myInput1" ng-value = "string" ng-model="myInput" required placeholder="Your pet's name">
+<input class = "input" type = "text" name="myInput2" ng-value = "number" ng-model="myInput1" required placeholder="Your pet's age">
+<input class = "input" type = "text" name="myInput3" ng-value = "string" ng-model="myInput2" required placeholder="What kind of animal is it?">
+<input class = "input" type = "text" name="myInput4" ng-value = "string" ng-model="myInput3" required placeholder="Paste photo URL here">
+<button class ="btn"type="button" name="button" ng-click="addPet()">Click</button>
+</div>
+
+</html>
