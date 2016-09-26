@@ -9,7 +9,6 @@ mongoose.connect(mongoURI);
 
 var port = process.env.PORT || 3000;
 
-app.use(bodyParser.http());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
 app.listen(port, function(){
